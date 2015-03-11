@@ -1,0 +1,31 @@
+# Site settings
+title: Organic Sack
+email: your-email@domain.com
+url: http://organicsack.com
+description: "Something is starting to grow. Join millions of others and be part of a food movement that has become a great awakening around the world."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#DCEDC8'
+
+  material-50: '#F1F8E9'
+  material-900: '#33691E'
+  material-999: '#1E3714'
+
+  material-accent: '#E91E63'
+
+
+# Footer settings
+footer: OrganicSack.com
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/OrganicSack
+  - title: facebook
+    url: https://facebook.com/OrganicSack
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
