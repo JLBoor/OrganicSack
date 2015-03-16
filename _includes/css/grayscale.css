@@ -287,6 +287,8 @@ a:focus {
     background-color: {{ site.color.material-accent }};
 }
 
+.btn-white { border-color: white; color: white; }
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
