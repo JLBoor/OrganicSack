@@ -1,0 +1,18 @@
+<!-- Intro Header -->
+<header class="simple-intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="brand-heading">
+                        {% if page.layout == 'post' %}
+                            {{page.date | date_to_long_string}}
+                        {% else %}
+                            {{page.title}}
+                        {% endif %}
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

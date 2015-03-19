@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+        {% include nav.html %}
+        {% include header-small.html %}
+
+        <section id="blog" class="container-fluid content-section text-center">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <nav class="pagination" role="navigation">
+                        {% if page.previous %}
+                        <a href="{{ page.previous.url }}" class="btn btn-default" title="{{page.previous.date | date_to_string}} - {{ page.previous.title }}">Previous</a>
+                        {% endif %}
+                        {% if page.next and page.next.draft != true %}
+                        <a href="{{ page.next.url }}" class="btn btn-default" title="{{page.next.date | date_to_string}} - {{ page.next.title }}">Next</a>
+                        {% endif %}
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
+</html>

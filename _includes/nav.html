@@ -1,11 +1,14 @@
  <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+
+        <div class="navbar-custom-title">{{page.title}}</div>
+
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="/">
                     <i class="fa fa-leaf"></i> Organic Sack
                 </a>
             </div>
@@ -18,8 +21,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#follow">Follow Us</a>
+                        <a class="page-scroll" href="/blog/newsletter">Blog</a>
                     </li>
+                    {% for network in site.social %}
+                    <li>
+                        <a target="_blank" title="{{ network.title }}" href="{{ network.url }}"><i class="fa fa-2x fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

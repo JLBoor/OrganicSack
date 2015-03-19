@@ -9,6 +9,7 @@ color:
   primary-dark: '#DCEDC8'
 
   material-50: '#F1F8E9'
+  material-500: '#8BC34A'
   material-900: '#33691E'
   material-999: '#1E3714'
 
@@ -29,3 +30,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+permalink: /blog/:title/
+gems:
+  - jekyll-sitemap
