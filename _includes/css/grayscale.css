@@ -5,6 +5,14 @@
  */
 
 .pagination .btn { width: 150px; }
+.join-us-input {
+    font-size: 20px;
+    color: white;
+    border: rgb(40, 132, 40) 2px solid;
+    border-radius: 10px;
+    padding: 5px 17px;
+    background: rgba(85, 85, 85, 0.6);
+}
 
 ul.post-list { list-style: none; font-size: 2em; text-align: left;}
 ul.post-list li { padding: .25em 0; }
@@ -80,6 +88,7 @@ a:focus {
 
 .navbar-custom .navbar-custom-title {
     display: none;
+    z-index: -1;
 }
 
 .navbar-custom.top-nav-collapse .navbar-custom-title {
@@ -95,6 +104,9 @@ a:focus {
     font-weight: 700;
     padding-top: 25px;
 }
+
+
+.navbar-brand.page-scroll { font-size: 25px; }
 
 .navbar-custom .navbar-brand:focus {
     outline: 0;
@@ -134,7 +146,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-nav >li>a {
-    line-height: 36px;
+    line-height: 43px;
     font-size: 16px;
 }
 
@@ -215,7 +227,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
@@ -324,12 +336,17 @@ a:focus {
 }
 
 .btn-default:hover,
-.btn-default:focus {
+.btn-default:focus,
+.btn-green {
     border: 1px solid {{ site.color.material-900 }};
     outline: 0;
     color: #fff;
     background-color: {{ site.color.material-900 }};
+
 }
+
+.btn-green { opacity: .7; }
+.btn-green:hover { color: white; opacity: 1; }
 
 .btn-white { border-color: white; color: white; }
 
