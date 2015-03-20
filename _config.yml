@@ -33,3 +33,7 @@ permalink: pretty
 permalink: /blog/:title/
 gems:
   - jekyll-sitemap
+
+# Owner
+owner:
+  disqus-shortname: jeanlouismarta
