@@ -21,11 +21,11 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/blog/newsletter">Blog</a>
+                        <a class="animate-text-shadow" href="/blog/newsletter">Blog</a>
                     </li>
                     {% for network in site.social %}
-                    <li>
-                        <a target="_blank" title="{{ network.title }}" href="{{ network.url }}"><i style="padding: 0; font-size: 1.5em;" class="fa fa-{{ network.title }}"></i></a>
+                    <li class="animate-opacity">
+                        <a class="nav-social-link" target="_blank" title="{{ network.title }}" href="{{ network.url }}"><i style="padding: 0; font-size: 1.5em;" class="fa fa-{{ network.title }}"></i></a>
                     </li>
                     {% endfor %}
                 </ul>

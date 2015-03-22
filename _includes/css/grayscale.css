@@ -4,6 +4,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+.animate-text-shadow:hover {text-shadow: 0px 0px 12px black; }
+
+.animate-opacity {
+    opacity: .5;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.animate-opacity:hover { opacity: 1; }
+
 .pagination .btn { width: 150px; }
 .join-us-input {
     font-size: 20px;
@@ -118,36 +132,25 @@ a:focus {
     color: #fff;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-
 .navbar-custom a {
     color: #fff;
 }
 
-.navbar-custom .nav li.active {
-    outline: none;
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.3);
-}
 
 .navbar-custom .navbar-nav >li>a {
-    line-height: 43px;
     font-size: 16px;
+    background: none;
+}
+
+.navbar-custom .navbar-nav >li>a.nav-social-link {
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: .25em;
+    text-align: center;
+    font-size: 14px;
 }
 
 @media(min-width:767px) {
