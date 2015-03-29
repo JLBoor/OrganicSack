@@ -25,7 +25,7 @@
     border: rgb(40, 132, 40) 2px solid;
     border-radius: 10px;
     padding: 5px 17px;
-    background: rgba(85, 85, 85, 0.6);
+    background: rgba(85, 85, 85, 1);
 }
 
 ul.post-list { list-style: none; font-size: 2em; text-align: left;}
@@ -365,9 +365,7 @@ a:focus {
 
 }
 
-.btn-green { opacity: .7; }
 .btn-green:hover { color: white; opacity: 1; }
-
 .btn-white { border-color: white; color: white; }
 
 ul.banner-social-buttons {
