@@ -4,6 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.content-section h1 { text-align: center; }
+
+.home-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: .5;
+}
+
 
 .animate-text-shadow:hover {text-shadow: 0px 0px 12px black; }
 
@@ -195,7 +206,7 @@ a:focus {
     height: 200px;
     display: table;
     width: 100%;
-    padding-top: 75px;
+    padding-top: 140px;
     text-align: center;
     color: #fff;
     background-color: {{ site.color.material-500 }};
