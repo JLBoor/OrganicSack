@@ -5,6 +5,7 @@
  */
 
 .content-section h1 { text-align: center; }
+.logo {padding: 10px; border-radius: 10px; background: #8BC34A; }
 
 .home-footer {
     position: fixed;
@@ -38,6 +39,8 @@
     padding: 5px 17px;
     background: rgba(85, 85, 85, 1);
 }
+
+.row .join-us-input { background: white; }
 
 ul.post-list { list-style: none; font-size: 2em; text-align: left;}
 ul.post-list li { padding: .25em 0; }

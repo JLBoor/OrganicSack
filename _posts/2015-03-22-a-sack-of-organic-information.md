@@ -10,6 +10,9 @@ share: true
 
 #A Sack of Organic Information
 
+{: .text-center}
+![OrganicSack logo](/img/sack-logo.png){: .logo }
+
 Hello and welcome to the new Organic Sack blog.  Here’s where you’ll find information about what is good, right, and healthy - *for us and the planet.*  
 
 By reading this blog, you’ll join millions of others and be part of a food movement that has become a great awakening around the world.
