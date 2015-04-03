@@ -10,6 +10,8 @@ share: true
 
 #We are Organic
 
+![OrganicSack logo](/img/we-are-organic.jpg){: .logo }
+
 ##What's organic?
 
 Put simply, organic food is produced from non-genetically modified organisms (GMOs) without the use of chemical fertilizers or pesticides.
