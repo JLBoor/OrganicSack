@@ -38,7 +38,7 @@ Organic production does not allow the use of:
 - industrial solvents or chemical food additives to make food **look** pretty and fresh
 - antibiotics or growth hormones for animals that produce meat, poultry, eggs, and dairy products
 
-
+<br />
 So why choose organic?  That's next week on Organic :-)
 
 Organic Sack team
