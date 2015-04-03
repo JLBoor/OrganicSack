@@ -42,6 +42,10 @@
 
 .row .join-us-input { background: white; }
 
+ul { font-size: 20px; }
+ul li { padding: 5px 0; }
+h2 { font-size: 23px; font-family: Lora, Helvetica; }
+
 ul.post-list { list-style: none; font-size: 2em; text-align: left;}
 ul.post-list li { padding: .25em 0; }
 ul.post-list li a { color: {{ site.color.material-900 }}; }
